@@ -21,7 +21,17 @@
       "Bash(~/.local/bin/gh auth *)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(curl -s -X POST https://github.com/login/device/code -H 'Accept: application/json' -d client_id=178c6fc778ccc68e1d6a -d 'scope=repo workflow')",
+      "Bash(kill 14652)",
+      "Bash(pkill -f \"login/device/token\")",
+      "Bash(export GH_TOKEN=$\\(cat /tmp/gh_token\\))",
+      "Bash(~/.local/bin/gh api *)",
+      "Bash('~/.local/bin/gh' repo *)",
+      "Bash('~/.local/bin/gh' api *)",
+      "Bash(rm -f /tmp/gh_token /tmp/gh_auth.log /tmp/gh.tar.gz)",
+      "Bash(rm -rf /tmp/gh_extract)",
+      "Bash(git push *)"
     ]
   }
 }
