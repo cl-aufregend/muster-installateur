@@ -1,7 +1,7 @@
 # Muster-Website Installateur
 
 Professionelle Muster-Website für einen fiktiven Installateur-Betrieb
-(**Müller Haustechnik**, Herrsching am Ammersee). Dient als Referenz auf
+(**Mustermann Haustechnik**, Herrsching am Ammersee). Dient als Referenz auf
 [aufregend.com](https://aufregend.com) für Handwerker, die sehen möchten,
 wie ihre Website aussehen könnte.
 

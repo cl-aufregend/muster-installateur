@@ -31,7 +31,9 @@
       "Bash('~/.local/bin/gh' api *)",
       "Bash(rm -f /tmp/gh_token /tmp/gh_auth.log /tmp/gh.tar.gz)",
       "Bash(rm -rf /tmp/gh_extract)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(curl -s https://cl-aufregend.github.io/muster-installateur/styles.css)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://cl-aufregend.github.io/muster-installateur/)"
     ]
   }
 }
