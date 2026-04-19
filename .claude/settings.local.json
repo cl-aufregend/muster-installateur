@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(command -v gh)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(command -v git)",
+      "Bash(git config *)",
+      "Read(//Applications/**)",
+      "Bash(brew list *)",
+      "Read(//Users/cerstin/.config/**)",
+      "Read(//Users/cerstin/**)",
+      "Bash(brew --version)",
+      "Bash(security find-internet-password *)",
+      "WebFetch(domain:websitedemos.net)",
+      "Read(//private/tmp/**)",
+      "Bash(unzip -qo gh.tar.gz -d gh_extract)",
+      "Bash(cp gh_extract/gh_*/bin/gh ~/.local/bin/gh)",
+      "Bash(chmod +x ~/.local/bin/gh)",
+      "Bash(~/.local/bin/gh --version)",
+      "Bash(~/.local/bin/gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
