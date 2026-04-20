@@ -39,7 +39,8 @@
       "Bash(curl -sSL -o hero.jpg \"https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80\")",
       "Bash(curl -sSL -o team.jpg \"https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=700&q=80\")",
       "Bash(curl -sSL -o werkzeug.jpg \"https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=500&q=80\")",
-      "Bash(curl -sSL -o referenz-bad.jpg \"https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=700&q=80\")"
+      "Bash(curl -sSL -o referenz-bad.jpg \"https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=700&q=80\")",
+      "Bash(file images/leistung-*.jpg)"
     ]
   }
 }
